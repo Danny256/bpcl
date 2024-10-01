@@ -1,0 +1,556 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Services 2 : Brilliant Pharmaceutical Co. Ltd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="assets/js/jquery.js"></script>
+
+    <!-- Google Font -->
+    <link
+      href="../../css-1?family=Lato:300,400,900%7CPoppins:300,400,800&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome and peStroke Icons -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/fontawesome/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
+    />
+
+    <!-- Required CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/shortcodes.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+
+    <!-- PrettyPhoto -->
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/prettyPhoto.css" />
+
+    <!-- Required Scripts -->
+    <script src="assets/js/superfish.js"></script>
+    <script src="assets/js/hoverIntent.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/labora-custom.js"></script>
+  </head>
+  <body class="rightsidebar">
+    <div class="labora_page_loader" style="display: none"></div>
+    <div id="wrapper">
+      <div class="topbar">
+        <div class="inner">
+          <div class="topbar-left">
+            <aside id="text-2" class="widget_text">
+              <div class="textwidget">Brilliant Pharmaceutical Co. Ltd</div>
+            </aside>
+          </div>
+          <!-- .topbar-left -->
+          <div class="topbar-right">
+            <aside id="nav_menu-2" class="widget_nav_menu">
+              <div class="menu-topbar-menu-container">
+                <ul id="menu-topbar-menu" class="menu">
+                  <li>
+                    <a href="#"
+                      ><span class="icon fa fa-phone fa-lg"></span> +211 919 415
+                      509</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="icon fa fa-phone fa-lg"></span> +211 927 833
+                      556</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+          <!-- .topbar-right -->
+        </div>
+        <!-- .inner -->
+      </div>
+      <!-- .topbar -->
+      <!-- -->
+      <header class="header-style1">
+        <div class="header">
+          <div class="header-area">
+            <div class="logo">
+              <a href="index" title="Labora">
+                <img src="assets/images/logo.png" alt="Labora" />
+              </a>
+            </div>
+            <!-- /logo -->
+            <div class="primarymenu menuwrap">
+              <ul class="sf-menu">
+                <li><a href="index">Home</a></li>
+                <!-- -->
+                <li>
+                  <a href="about-us">About Us</a>
+                  <!-- About Us UL -->
+                </li>
+                <li>
+                  <a href="case-grid">Case Grid</a>
+                  <!-- Case Filter -->
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children"
+                >
+                  <a href="our-services">Our Services</a>
+                  <ul>
+                    <li><a href="service1">Services 1</a></li>
+                    <li
+                      class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3231 current_page_item"
+                    >
+                      <a href="service2">Services 2</a>
+                    </li>
+                    <li><a href="service3">Services 3</a></li>
+                  </ul>
+                </li>
+                <!-- Press Release-->
+                <!-- Short codes -->
+                <li><a href="contact-us">Contact Us</a></li>
+              </ul>
+              <!-- .sf-menu-->
+              <div id="iva-mobile-nav-icon" class="iva-mobile-dropdown">
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <!-- .primarymenu-->
+
+            <!-- Header Widget Area -->
+            <!-- <div class="icn_wrap">
+						<div id="ivaSearch" class="ivaSearch icnalign"><i class="fa fa-search fa-fw"></i></div>
+					</div> -->
+          </div>
+          <!-- .header-area-->
+
+          <!-- Search Field -->
+
+          <div class="iva-mobile-menu">
+            <ul class="iva_mmenu">
+              <li><a href="index">Home</a></li>
+              <!-- Headers Mobile -->
+              <li>
+                <a href="about-us"
+                  >About Us<span class="iva-children-indenter"
+                    ><i class="fa fa fa-angle-down"></i></span
+                ></a>
+                <!-- About Us Mobile -->
+              </li>
+              <li>
+                <a href="case-grid"
+                  >Case Grid<span class="iva-children-indenter"
+                    ><i class="fa fa fa-angle-down"></i></span
+                ></a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="case-with-filters">case-with-filters</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="our-services"
+                  >Our Services<span class="iva-children-indenter"
+                    ><i class="fa fa fa-angle-down"></i></span
+                ></a>
+                <!-- Our Services Mobile -->
+              </li>
+              <li>
+                <a href="faq"
+                  >FAQs<span class="iva-children-indenter"
+                    ><i class="fa fa fa-angle-down"></i></span
+                ></a>
+              </li>
+              <!-- Press Release-->
+              <!-- Short codes -->
+              <li><a href="contact-us">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- .iva-mobile-menu-->
+        </div>
+        <!-- .header-->
+      </header>
+      <!-- #header -->
+
+      <div id="subheader" class="sleft">
+        <div class="subheader-inner">
+          <div class="subdesc">
+            <h1 class="page-title">Service 2</h1>
+          </div>
+          <div class="breadcrumb-main">
+            <div class="breadcrumb-wrap inner">
+              <div class="breadcrumbs">
+                <!-- Breadcrumb NavXT 5.7.1 -->
+                <span><a href="index" class="home">Home</a></span>
+                <span><i class="fa fa-angle-right"></i></span>
+                <span><span>Service 2</span></span>
+              </div>
+              <!-- .breadcrumbs-->
+            </div>
+            <!-- .breadcrumb-wrap-->
+          </div>
+          <!-- .breadcrumb-main-->
+        </div>
+        <!-- .subheader-inner-->
+      </div>
+      <!-- #subheader-->
+
+      <div id="main">
+        <div id="primary" class="pagemid">
+          <div class="inner">
+            <main class="content-area">
+              <div class="entry-content-wrapper clearfix">
+                <div class="at-service-container">
+                  <div
+                    class="at-item style2 one_third"
+                    style="margin-bottom: 40px"
+                  >
+                    <div class="at-image">
+                      <a href="service"
+                        ><img
+                          class=""
+                          src="assets/images/diabetes.jpg"
+                          width="350"
+                          height="220"
+                          alt="diabetes"
+                          title="diabetes"
+                      /></a>
+                    </div>
+                    <div class="at-content">
+                      <div class="at-category">
+                        <span>Lab Service</span>
+                        <i class="fa fa-chevron-right"></i>
+                      </div>
+                      <h4><a href="service">Functional Medicine</a></h4>
+                    </div>
+                  </div>
+                  <!-- .at-item style2-->
+
+                  <div
+                    class="at-item style2 one_third"
+                    style="margin-bottom: 40px"
+                  >
+                    <div class="at-image">
+                      <a href="service"
+                        ><img
+                          class=""
+                          src="assets/images/surgical.jpg"
+                          width="350"
+                          height="220"
+                          alt="surgical-instruments"
+                          title="surgical-instruments"
+                      /></a>
+                    </div>
+                    <div class="at-content">
+                      <div class="at-category">
+                        <span>Lab Service</span>
+                        <i class="fa fa-chevron-right"></i>
+                      </div>
+                      <h4><a href="service">Surgical Services</a></h4>
+                    </div>
+                  </div>
+                  <!-- .at-item style2-->
+
+                  <div
+                    class="at-item style2 one_third last"
+                    style="margin-bottom: 40px"
+                  >
+                    <div class="at-image">
+                      <a href="service"
+                        ><img
+                          class=""
+                          src="assets/images/medical.jpg"
+                          width="350"
+                          height="220"
+                          alt="medical-emergency"
+                          title="medical-emergency"
+                      /></a>
+                    </div>
+                    <div class="at-content">
+                      <div class="at-category">
+                        <span>Disease, Lab Service</span>
+                        <i class="fa fa-chevron-right"></i>
+                      </div>
+                      <h4><a href="service">Emergency Care</a></h4>
+                    </div>
+                  </div>
+                  <!-- .at-item style2-->
+                </div>
+                <!-- .at-service-container-->
+
+                <div class="at-service-container">
+                  <div class="at-item style2 one_third">
+                    <div class="at-image">
+                      <a href="service"
+                        ><img
+                          class=""
+                          src="assets/images/measurement.jpg"
+                          width="350"
+                          height="220"
+                          alt="measurement"
+                          title="measurement"
+                      /></a>
+                    </div>
+                    <div class="at-content">
+                      <div class="at-category">
+                        <span>Lab Service</span>
+                        <i class="fa fa-chevron-right"></i>
+                      </div>
+                      <h4><a href="service">Gastroenterology</a></h4>
+                    </div>
+                  </div>
+                  <!-- .at-item style2-->
+
+                  <div class="at-item style2 one_third">
+                    <div class="at-image">
+                      <a href="service"
+                        ><img
+                          class=""
+                          src="assets/images/medic.jpg"
+                          width="350"
+                          height="220"
+                          alt="medic"
+                          title="medic"
+                      /></a>
+                    </div>
+                    <div class="at-content">
+                      <div class="at-category">
+                        <span>Disease, Lab Service</span>
+                        <i class="fa fa-chevron-right"></i>
+                      </div>
+                      <h4>
+                        <a href="service">Integrative Health Services</a>
+                      </h4>
+                    </div>
+                  </div>
+                  <!-- .at-item style2-->
+
+                  <div class="at-item style2 one_third last">
+                    <div class="at-image">
+                      <a href="service"
+                        ><img
+                          class=""
+                          src="assets/images/medic1.jpg"
+                          width="350"
+                          height="220"
+                          alt="medic"
+                          title="medic"
+                      /></a>
+                    </div>
+                    <div class="at-content">
+                      <div class="at-category">
+                        <span>Lab Service</span
+                        ><i class="fa fa-chevron-right"></i>
+                      </div>
+                      <h4><a href="service">Ophthalmology</a></h4>
+                    </div>
+                  </div>
+                  <!-- .at-item style2-->
+                </div>
+                <!-- .at-service-container-->
+              </div>
+              <!-- .entry-content-wrapper -->
+            </main>
+            <!-- .content-area-->
+
+            <div id="sidebar">
+              <div class="content widget-area">
+                <aside id="recent-posts-3" class="widget widget_recent_entries">
+                  <h3 class="widget-title">Recent Releases</h3>
+                  <ul>
+                    <li>
+                      <a href="#"
+                        >Exploring Anatomy &amp; Physiology in the Laboratory</a
+                      >
+                      <span class="post-date">August 4, 2016</span>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Medicine Diagnosis of Disease in Clinical Laboratory</a
+                      >
+                      <span class="post-date">August 4, 2016</span>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >99 Personal Money Management Principles to Live By</a
+                      >
+                      <span class="post-date">August 4, 2016</span>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >How to Grow Your Money the Smart and Easy Way</a
+                      >
+                      <span class="post-date">August 4, 2016</span>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Personal Finance In Your Twenties and Thirties</a
+                      >
+                      <span class="post-date">August 4, 2016</span>
+                    </li>
+                  </ul>
+                </aside>
+                <aside id="archives-3" class="widget widget_archive">
+                  <h3 class="widget-title">Archive</h3>
+                  <label class="screen-reader-text" for="archives-dropdown-3"
+                    >Archive</label
+                  >
+                  <select
+                    id="archives-dropdown-3"
+                    name="archive-dropdown"
+                    onchange="document.location.href=this.options[this.selectedIndex].value;"
+                  >
+                    <option value="">Select Month</option>
+                    <option value="#">August 2016</option>
+                    <option value="#">June 2016</option>
+                  </select>
+                </aside>
+              </div>
+              <!-- .content widget-area-->
+            </div>
+            <!-- .sidebar-->
+          </div>
+          <!-- .inner -->
+        </div>
+        <!-- .pagemid -->
+      </div>
+      <!-- #main -->
+
+      <div id="footer">
+        <div class="footer-area-top">
+          <div class="inner">
+            <div class="at-callOutBox">
+              <div class="at-callOut_inner">
+                <div class="at-callOut-action">
+                  <div class="at-callOut_text">
+                    <div class="at-callout-action-text">
+                      <h1
+                        style="
+                          font-size: 24px;
+                          color: #ffffff;
+                          font-weight: 600;
+                          letter-spacing: -1px;
+                        "
+                      >
+                        Brilliant Pharmaceutical Co. Ltd
+                      </h1>
+                    </div>
+                  </div>
+                  <div class="at-callOut_btn">
+                    <div class="at-callout-action-button">
+                      <a
+                        href="contact-us"
+                        class="btn large"
+                        style="color: #ffffff; border-color: #ffffff"
+                        data-btn-color="#f0f0f0"
+                      >
+                        <span class="btn-text">Get In Touch</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .footer-area-top-->
+
+        <div class="footer-area-middle">
+          <div class="inner">
+            <div class="inner-row">
+              <aside id="text-4" class="whitetext widget widget_text col_3">
+                <div class="textwidget">
+                  <p><img src="assets/images/logo-white.png" alt="Labora" /></p>
+                  <h5>Always focused on client satisfcation</h5>
+                </div>
+              </aside>
+              <aside id="nav_menu-6" class="widget widget_nav_menu col_3">
+                <h3 class="widget-title">Quick Links</h3>
+                <div class="menu-footer-one-container">
+                  <ul class="menu">
+                    <li><a href="index">Home</a></li>
+                    <li><a href="about-us">About Us</a></li>
+                    <li><a href="contact-us">Contact Us</a></li>
+                  </ul>
+                </div>
+              </aside>
+              <aside id="nav_menu-5" class="widget widget_nav_menu col_3">
+                <h3 class="widget-title">Useful Links</h3>
+                <div class="menu-footer-one-container">
+                  <ul class="menu">
+                    <li><a href="index">Home</a></li>
+                    <li><a href="about-us">About Us</a></li>
+                    <li><a href="contact-us">Contact Us</a></li>
+                  </ul>
+                </div>
+              </aside>
+              <aside
+                id="contactinfo_widgets-2"
+                class="widget contactinfo-wg col_3"
+              >
+                <h3 class="widget-title">LETS TALK</h3>
+                <div class="contactinfo-wrap">
+                  <p>
+                    <span class="icon fa fa-location-arrow fa-lg"></span>
+                    <span class="details">
+                      Muniki, Suq Libya, St.Kazito Junction<br />
+                      Juba South Sudan</span
+                    >
+                  </p>
+                  <p class="phone">
+                    <span class="icon fa fa-phone fa-lg"></span>
+                    <span class="details">+211 919 415 509</span>
+                  </p>
+                  <p>
+                    <span class="icon fa fa-map-marker fa-lg"></span>
+                    <span class="details"
+                      ><a
+                        class="more-link"
+                        target="_blank"
+                        href="contact-us#imap"
+                        >View Map</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </aside>
+            </div>
+            <!-- inner-row -->
+          </div>
+          <!-- inner -->
+        </div>
+        <!-- .footer-area-middle-->
+
+        <div class="footer-area-bottom">
+          <div class="inner">
+            <aside id="text-7" class="textcenter widget widget_text">
+              <div class="textwidget">
+                &copy; Copyright
+                <script>
+                  document.write(/\d{4}/.exec(Date())[0]);
+                </script>
+                BPC. All Rights Reserved. Designed by
+                <a href="https://api.whatsapp.com/send/?phone=256782031052"
+                  >DANTRUST</a
+                >
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+      <!-- #footer -->
+    </div>
+    <!-- #wrapper-->
+
+    <div id="back-top">
+      <a href="#header" title="Scroll Top"
+        ><span class="fa fa-angle-up fa-fw fa-2x"></span
+      ></a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,382 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About Us : Brilliant - Medical and Laboratory</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/js/jquery.js"></script>
+
+	<!-- Google Font -->
+	<link href="../../css-1?family=Lato:300,400,900%7CPoppins:300,400,800&amp;subset=latin-ext" rel="stylesheet">
+
+	<!-- Font Awesome and peStroke Icons -->
+	<link rel="stylesheet" type="text/css" href="assets/css/fontawesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+
+	<!-- Required CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/shortcodes.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+	<!-- PrettyPhoto -->
+	<link rel="stylesheet" type="text/css" href="assets/css/prettyPhoto.css">
+	<script src="assets/js/jquery.prettyPhoto.js"></script>
+
+	<!-- Required Scripts -->
+	<script src="assets/js/superfish.js"></script>
+	<script src="assets/js/hoverIntent.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/labora-custom.js"></script>
+
+	<!-- Chart Script -->
+	<script src="assets/js/Chart.min.js"></script>
+	<script type="text/javascript">
+		jQuery(window).on('load', function ($) {
+			var chart_5972e9958855a = jQuery("#chart_5972e9958855a").get(0).getContext("2d");
+			chart_5972e9958855a.canvas.width = 450;
+			chart_5972e9958855a.canvas.height = 250;
+			var ChartData_chart_5972e9958855a = {
+				"labels":["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"],
+				"datasets":[{
+					"label":"Lab 1",
+					"fillColor":"rgba(43, 203, 208, 0.3)",
+					"strokeColor":"rgba(43, 203, 208, 1)",
+					"pointColor":"#2bcbd0",
+					"pointStrokeColor":"#fff",
+					"pointHighlightFill":"#fff",
+					"pointHighlightStroke":"rgba(43, 203, 208, 1)",
+					"data":["0"," 5"," 20"," 45"," 60"," 45"," 20"," 5"," 0"," 0"," 0"," 0"," 0"," 0"," 0"," 0"," 0"," 0"]
+				},{
+					"label":"Lab 2",
+					"fillColor":"rgba(255, 194, 71, 0.3)",
+					"strokeColor":"rgba(255, 194, 71, 1)",
+					"pointColor":"#ffc247",
+					"pointStrokeColor":"#fff",
+					"pointHighlightFill":"#fff",
+					"pointHighlightStroke":"rgba(255, 194, 71, 1)",
+					"data":["0","0","20"," 65"," 78.5"," 65"," 20","0"," 0"," 0"," 0"," 0"," 0"," 0"," 0"," 0"," 0"," 0"]
+				},{
+					"label":"Lab 3",
+					"fillColor":"rgba(76, 203, 135, 0.3)",
+					"strokeColor":"rgba(76, 203, 135, 1)",
+					"pointColor":"#4ccb87",
+					"pointStrokeColor":"#fff",
+					"pointHighlightFill":"#fff",
+					"pointHighlightStroke":"rgba(76, 203, 135, 1)",
+					"data":["0"," 0"," 0"," 0"," 0","0","20"," 65"," 78.5"," 65"," 20","0"," 0"," 0"," 0"," 0"," 0"," 0"," "]
+				}]
+			};
+			new Chart(chart_5972e9958855a).Line(ChartData_chart_5972e9958855a, {
+				responsive: false
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="labora_page_loader" style="display: none;"></div>
+	<div id="wrapper">
+
+		<div class="topbar">
+
+			<div class="inner">
+
+				<div class="topbar-left">
+					<aside id="text-2" class=" widget_text">
+						<div class="textwidget">Brilliant Pharmaceutical Co. Ltd</div>
+					</aside>
+				</div><!-- .topbar-left -->
+				<div class="topbar-right">
+					<aside id="nav_menu-2" class=" widget_nav_menu">
+						<div class="menu-topbar-menu-container">
+							<ul id="menu-topbar-menu" class="menu">
+								<li><a href="#"><span class="icon fa fa-phone fa-lg"></span> +211 919 415 509</a></li>
+								<li><a href="#"><span class="icon fa fa-phone fa-lg"></span> +211 927 833 556</a></li>
+							</ul>
+						</div>
+					</aside>
+				</div><!-- .topbar-right -->
+			</div><!-- .inner -->
+		</div><!-- .topbar -->
+		<header class="header-style1">
+		 	<div class="header">
+				<div class="header-area">
+					<div class="logo">
+						<a href="index" title="Brilliant">
+						<img src="assets/images/logo.png" alt="Brilliant">
+						</a>
+					</div><!-- /logo -->
+					<div class="primarymenu menuwrap">
+						<ul class="sf-menu">
+							<li><a href="index">Home</a></li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3373 current_page_item current_page_parent"><a href="about-us">About Us</a>
+							<!-- About Us UL -->
+							</li>
+							<li><a href="case-grid">Case Grid</a>
+							<!-- Case Filter -->
+							</li>
+							<li><a href="our-services">Our Services</a>
+							<li><a href="faq">FAQs</a>
+							<!-- Services -->
+							</li>
+							<!-- Press Release-->
+							<!-- Short codes -->
+							<li><a href="contact-us">Contact Us</a></li>
+						</ul><!-- .sf-menu-->
+						<div id="iva-mobile-nav-icon" class="iva-mobile-dropdown"><span></span><span></span><span></span><span></span></div>
+					</div><!-- .primarymenu-->
+
+				   <!-- Header Widget Area -->
+					<!-- <div class="icn_wrap">
+						<div id="ivaSearch" class="ivaSearch icnalign"><i class="fa fa-search fa-fw"></i></div>
+					</div> -->
+				</div><!-- .header-area-->
+
+				<!-- Search Field -->
+
+				<div class="iva-mobile-menu">
+				  	<ul class="iva_mmenu">
+						<li><a href="index">Home</a></li>
+						<!-- Headers Mobile -->
+						<li><a href="about-us">About Us<span class="iva-children-indenter"><i class="fa fa fa-angle-down"></i></span></a>
+							<!-- About Us Mobile -->
+						</li>
+						<li><a href="case-grid">Case Grid<span class="iva-children-indenter"><i class="fa fa fa-angle-down"></i></span></a>
+						<ul class="sub-menu">
+							<li><a href="case-with-filters">case-with-filters</a></li>
+						</ul>
+						</li>
+						<li><a href="our-services">Our Services<span class="iva-children-indenter"><i class="fa fa fa-angle-down"></i></span></a>
+						<li><a href="faq">FAQs</a>
+							<!-- Our Services Mobile -->
+						</li>
+						<!-- Press Release-->
+						<!-- Short codes -->
+						<li><a href="contact-us">Contact Us</a></li>
+				 	</ul>
+				</div><!-- .iva-mobile-menu-->
+		 	</div><!-- .header-->
+		</header><!-- #header -->
+
+		<div id="subheader" class="sleft">
+			<div class="subheader-inner">
+				<div class="subdesc">
+					<h1 class="page-title">About Us</h1>
+				</div>
+				<div class="breadcrumb-main">
+					<div class="breadcrumb-wrap inner">
+						<div class="breadcrumbs">
+							<!-- Breadcrumb NavXT 5.7.1 -->
+							<span><a href="index" class="home">Home</a></span>
+							<span><i class="fa fa-angle-right"></i></span>
+							<span><span>About</span></span>
+						</div><!-- .breadcrumbs-->
+					</div><!-- .breadcrumb-wrap-->
+				</div><!-- .breadcrumb-main-->
+			</div><!-- .subheader-inner-->
+		</div><!-- #subheader-->
+
+
+		<div id="main" class="content-area">
+			<div id="primary" class="pagemid">
+				<div class="section_row" style="padding:0;">
+					<div class="section_inner">
+
+						<div class="at-fancy-heading-v1 textcenter" style="margin-top:80px;">
+							<h2 style="color: #8a8c98;">Brilliant Pharmaceutical Co. Ltd</h2>
+							<span class="at-fancy-heading-v1-sep"></span>
+						</div>
+						<div class="demo_space" style="height:80px;"></div>
+
+						<div class="one_third">
+							<figure>
+								<img src="assets/images/laugh.jpg" alt="">
+							</figure>				
+
+						</div><!-- .one_third-->
+						
+						<div class="two_third last">
+							<p>We are committed to offer high 
+								quality and affordable medicines, medical equipment and other 
+								healthcare products to ensure that all South Sudanese and the 
+								people of this region gain access to quality healthcare at an 
+								affordable cost. 
+							</p>
+							<p><strong>Our Mission &nbsp;</br></strong>
+								Brilliant Pharmaceutical Co. Ltd strives to provide excellent products and services to the clients by being honest, 
+								fair, reliable and responsible in all our business practices. Through our knowledge and significant experience in 
+								the industry, we add value to our customers and build long term relationships which are mutually beneficial.
+							</p>
+							<p><strong>Our Vision &nbsp;</br></strong>
+								To be one of the leading & trusted pharmaceutical 
+								companies in the region by offering time-demanded, quality products
+								& services that improves the quality of lives of millions of people.
+							</p>							
+							<p><strong>Core Values &nbsp;</br></strong>
+								Integrity All our business decisions are guided by the virtue of integrity. 
+								To us, integrity means doing the right thing always. We are committed to the 
+								highest ethical standard in all our business operations.
+							</p>
+							<p><strong>Our Management &nbsp;</br></strong>
+								Our Management team consists of highly-qualified and high-performing professionals
+								 with rich experience in the pharmaceutical industry as well as in other business 
+								fields. These individuals bring in passion and exceptional expertise to determine 
+								the focus and strategic direction of our company. 
+							</p>
+							<p><strong>Our Partners &nbsp;</br></strong>
+								Brilliant Pharmaceutical Co. Ltd Is committed to offer high quality and affordable 
+								medicines to the people of South Sudan and the region at large. So, we are partnering with 
+								the reputed manufacturers of high quality Pharmaceutical products from various countries. 
+							</p>
+							<p><strong>Our Goals &nbsp;</br></strong>
+								<ul style="list-style-type:circle">
+									<li>To Create a distinctive, highly Trained Workforce.</li>
+									<li>To maintain and enhance cooperative relationship with Physicians & health professionals to better 
+										serve the healthcare needs of our community.</li>
+									<li>To treat our customers and partners with respect and dignity.</li>
+									<li>To Develop a loyal and productive team.</li>
+									<li>To Build skill-based assets for increased competitive advantage.</li>
+									<li>To Increase profitability through superior service.</li>
+									<li>To provide High Quality Medical Services.</li>
+									<li>To provide Good Quality & affordable medicines</li>
+								</ul>
+							</p>
+						</div><!-- .two_third-->									
+	            	</div><!-- .section_inner-->
+				</div><!-- .section_row-->
+
+				<div class="clear"></div>				
+			<div class="section_row clearfix" style="background-color: #242424; color:#ffffff;">
+				<div class="section_inner">
+					<div class="at-fancy-heading-v1 textcenter">
+						<h2 style="color: #ffffff;">Brilliant Pharmaceutical Co. Ltd is a peoples choice award winning company</h2>
+						<span class="at-fancy-heading-v1-sep"></span>
+					</div>
+
+					<div class="one_third">
+						<div class="at-fancy-heading-v1 textleft whitetext">
+							<h2 style="font-weight: 800;">2023.</h2>
+							<p><strong>Celebrated</strong></p>
+							<span class="at-fancy-heading-v1-sep"></span>
+						</div>
+
+						<p>The greatest wealth is health.</p>
+					</div><!-- .one_third-->
+
+					<div class="one_third">
+						<div class="at-fancy-heading-v1 textleft whitetext">
+							<h2 style="font-weight: 800;">2022.</h2>
+							<p><strong>Celebrated</strong></p>
+							<span class="at-fancy-heading-v1-sep"></span>
+						</div>
+
+						<p style="color: #ffffff;">Pharmacy is not just about the medicine. It’s about providing care and compassion to those in need.</p>
+					</div><!-- .one_third-->
+
+					<div class="one_third last">
+						<div class="at-fancy-heading-v1 textleft whitetext">
+							<h2 style="font-weight: 800;">2021.</h2>
+							<p><strong>Celebrated</strong></p>
+							<span class="at-fancy-heading-v1-sep"></span>
+						</div>
+
+						<p style="color: #ffffff;">Pharmaceuticals are a reminder that progress in science and medicine comes from curiosity, persistence, and a touch of humanity.</p>
+					</div><!-- .one_third-->
+				</div><!-- .section_inner-->
+			</div><!-- .section_row-->
+ 			
+		</div><!-- #main-->
+		<div id="footer">
+
+		<div class="footer-area-top">
+			<div class="inner">
+				<div class="at-callOutBox">
+					<div class="at-callOut_inner">
+						<div class="at-callOut-action">
+							<div class="at-callOut_text">
+								<div class="at-callout-action-text">
+									<h1 style="font-size:24px;color:#ffffff;font-weight:600;letter-spacing:-1px;">Brilliant Pharmaceuticals Co.</h1>
+								</div>
+							</div>
+							<div class="at-callOut_btn">
+								<div class="at-callout-action-button">
+									<a href="contact-us" class="btn large" style="color: #ffffff;border-color: #ffffff;" data-btn-color="#f0f0f0">
+										<span class="btn-text">Get in Touch</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- .footer-area-top-->
+
+		<div class="footer-area-middle">
+			<div class="inner">
+				<div class="inner-row">
+					<aside id="text-4" class="whitetext widget widget_text  col_3">
+						<div class="textwidget">
+							<p><img src="assets/images/logo-white.png" alt="Brilliant"></p>
+							<h5>Always focused on client satisfcation</h5>
+						</div>
+					</aside>
+					<aside id="nav_menu-6" class="widget widget_nav_menu  col_3">
+						<h3 class="widget-title">Quick Links</h3>
+						<div class="menu-footer-one-container">
+								<ul class="menu">
+									<li><a href="index">Home</a></li>
+									<li><a href="about-us">About Us</a></li>
+									<li><a href="contact-us">Contact Us</a></li>
+								</ul>
+							</div>
+					</aside>
+					<aside id="nav_menu-5" class="widget widget_nav_menu  col_3">
+						<h3 class="widget-title">Useful Links</h3>
+						<div class="menu-footer-one-container">
+								<ul class="menu">
+									<li><a href="index">Home</a></li>
+									<li><a href="about-us">About Us</a></li>
+									<li><a href="contact-us">Contact Us</a></li>
+								</ul>
+							</div>
+					</aside>
+					<aside id="contactinfo_widgets-2" class="widget contactinfo-wg  col_3">
+						<h3 class="widget-title">LETS TALK</h3>
+						<div class="contactinfo-wrap">
+								<p><span class="icon fa fa-location-arrow fa-lg"></span>
+									<span class="details">
+									Muniki, Suq Libya, St.Kazito Junction<br>
+										Juba South Sudan</span>
+								</p>
+								<p class="phone">
+									<span class="icon fa fa-phone fa-lg"></span>
+									<span class="details">+211 919 415 509</span>
+								</p>
+								<p>
+									<span class="icon fa fa-map-marker fa-lg"></span>
+									<span class="details"><a class="more-link" target="_blank" href="contact-us#imap"
+                        >View Map</a></span>
+								</p>
+							</div>
+					</aside>
+				</div><!-- inner-row -->
+			</div><!-- inner -->
+		</div><!-- .footer-area-middle-->
+
+		<div class="footer-area-bottom">
+			<div class="inner">
+				<aside id="text-7" class="textcenter widget widget_text">
+					<div class="textwidget">
+							&copy; Copyright <script>document.write(/\d{4}/.exec(Date())[0])</script> BPC. All Rights Reserved. Designed by <a href="https://api.whatsapp.com/send/?phone=256782031052">DANTRUST</a>
+						</div>
+				</aside>
+			</div>
+		</div>
+
+	</div><!-- #footer -->
+
+</div><!-- #wrapper-->
+
+<div id="back-top"><a href="#header" title="Scroll Top"><span class="fa fa-angle-up fa-fw fa-2x"></span></a></div>
+
+</body>
+</html>

@@ -1,0 +1,333 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Case Grid : Brilliant Pharmaceutical Co. Ltd</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/js/jquery.js"></script>
+
+	<!-- Google Font -->
+	<link href="../../css-1?family=Lato:300,400,900%7CPoppins:300,400,800&amp;subset=latin-ext" rel="stylesheet">
+
+	<!-- Font Awesome and peStroke Icons -->
+	<link rel="stylesheet" type="text/css" href="assets/css/fontawesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+
+	<!-- Required CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/shortcodes.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+	<!-- PrettyPhoto -->
+	<link rel="stylesheet" type="text/css" href="assets/css/prettyPhoto.css">
+	<script src="assets/js/jquery.prettyPhoto.js"></script>
+
+	<!-- Required Scripts -->
+	<script src="assets/js/superfish.js"></script>
+	<script src="assets/js/hoverIntent.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/labora-custom.js"></script>
+</head>
+<body>
+	<div class="labora_page_loader" style="display: none;"></div>
+	<div id="wrapper">
+
+		<div class="topbar">
+
+			<div class="inner">
+
+				<div class="topbar-left">
+					<aside id="text-2" class=" widget_text">
+						<div class="textwidget">Brilliant Pharmaceutical Co. Ltd</div>
+					</aside>
+				</div><!-- .topbar-left -->
+				<div class="topbar-right">
+					<aside id="nav_menu-2" class=" widget_nav_menu">
+						<div class="menu-topbar-menu-container">
+							<ul id="menu-topbar-menu" class="menu">
+								<li><a href="#"><span class="icon fa fa-phone fa-lg"></span> +211 919 415 509</a></li>
+								<li><a href="#"><span class="icon fa fa-phone fa-lg"></span> +211 927 833 556</a></li>
+							</ul>
+						</div>
+					</aside>
+				</div><!-- .topbar-right -->
+			</div><!-- .inner -->
+		</div><!-- .topbar -->
+		<!-- -->
+		<header class="header-style1">
+		 	<div class="header">
+				<div class="header-area">
+					<div class="logo">
+						<a href="index" title="Labora">
+						<img src="assets/images/logo.png" alt="Labora">
+						</a>
+					</div><!-- /logo -->
+					<div class="primarymenu menuwrap">
+						<ul class="sf-menu">
+							<li><a href="index">Home</a></li>
+							<!-- -->
+							<li><a href="about-us">About Us</a>
+							<!-- About Us UL -->
+							</li>
+							<li><a href="case-grid">Case Grid</a>
+							<!-- Case Filter -->
+							</li>
+							<li><a href="our-services">Our Services</a>
+							<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children"><a href="faq">FAQs</a>
+							<!-- Services -->
+							</li>
+							<!-- Press Release-->
+							<!-- Short codes -->
+							<li><a href="contact-us">Contact Us</a></li>
+						</ul><!-- .sf-menu-->
+						<div id="iva-mobile-nav-icon" class="iva-mobile-dropdown"><span></span><span></span><span></span><span></span></div>
+					</div><!-- .primarymenu-->
+
+				   <!-- Header Widget Area -->
+					<!-- <div class="icn_wrap">
+						<div id="ivaSearch" class="ivaSearch icnalign"><i class="fa fa-search fa-fw"></i></div>
+					</div> -->
+				</div><!-- .header-area-->
+
+				<!-- Search Field -->
+
+				<div class="iva-mobile-menu">
+				  	<ul class="iva_mmenu">
+						<li><a href="index">Home</a></li>
+						<!-- Headers Mobile -->
+						<li><a href="about-us">About Us<span class="iva-children-indenter"><i class="fa fa fa-angle-down"></i></span></a>
+							<!-- About Us Mobile -->
+						</li>
+						<li><a href="case-grid">Case Grid<span class="iva-children-indenter"><i class="fa fa fa-angle-down"></i></span></a>
+						<ul class="sub-menu">
+							<li><a href="case-with-filters">case-with-filters</a></li>
+						</ul>
+						</li>
+
+						<li><a href="our-services">Our Services<span class="iva-children-indenter"><i class="fa fa fa-angle-down"></i></span></a>
+						<!-- Our Services Mobile -->
+						</li>
+						<li><a href="faq">FAQs<span class="iva-children-indenter"><i class="fa fa fa-angle-down"></i></span></a></li>
+						<!-- Press Release-->
+						<!-- Short codes -->
+						<li><a href="contact-us">Contact Us</a></li>
+				 	</ul>
+				</div><!-- .iva-mobile-menu-->
+		 	</div><!-- .header-->
+		</header><!-- #header -->
+
+		<div id="subheader" class="sleft">
+			<div class="subheader-inner">
+				<div class="subdesc">
+					<h1 class="page-title">FAQs</h1>
+				</div>
+				<div class="breadcrumb-main">
+					<div class="breadcrumb-wrap inner">
+						<div class="breadcrumbs">
+							<!-- Breadcrumb NavXT 5.7.1 -->
+							<span><a href="index" class="home">Home</a></span>
+							<span><i class="fa fa-angle-right"></i></span><span>
+							<span>FAQs</span></span>
+						</div><!-- .breadcrumbs-->
+					</div><!-- .breadcrumb-wrap-->
+				</div><!-- .breadcrumb-main-->
+			</div><!-- .subheader-inner-->
+		</div><!-- #subheader-->
+
+		<div id="main">
+			<div id="primary" class="pagemid">
+				<div class="inner">
+					<main class="content-area">
+						<div class="entry-content-wrapper clearfix">
+							<div id="accordion" class="box">
+							
+							<h4>Frequently Asked Questions</h4>
+							<div class="ac_wrap iva_anim">
+								<div class="toggle-title arrow active">
+									<span class="arrow"></span>
+									<i class="fa fa fa-compass"></i>What are your hours of operation?
+								</div>
+
+								<div class="toggle_content  ac_content arrow active" style="display: block;">
+								Our pharmacy is open Monday through Sunday 8AM to 12AM.
+									<br>
+								</div>
+
+								<div class="toggle-title arrow">
+									<span class="arrow"></span>
+									<i class="fa fa fa-compass"></i>Do you accept my insurance?
+								</div>
+								<div class="toggle_content ac_content arrow" style="display: none;">
+								We accept a wide range of insurance plans. Please bring your insurance card to verify coverage.
+									<br>
+								</div>
+
+								<div class="toggle-title arrow">
+									<span class="arrow"></span>
+									<i class="fa fa fa-compass"></i>How can I transfer my prescription from another pharmacy?
+								</div>
+
+								<div class="toggle_content  ac_content arrow " style="display: none;">
+								You can transfer your prescription by providing us with the details of your previous pharmacy, including the prescription number. We’ll handle the rest!
+									<br>
+								</div>
+
+								<div class="toggle-title arrow ">
+									<span class="arrow"></span>
+									<i class="fa fa fa-compass"></i>What should I do if I miss a dose of my medication?
+								</div>
+
+								<div class="toggle_content  ac_content arrow " style="display: none;">
+								If you miss a dose, take it as soon as you remember. If it’s almost time for your next dose, skip the missed one. Never double up!
+									<br>
+								</div>
+
+								<div class="toggle-title arrow ">
+									<span class="arrow"></span>
+									<i class="fa fa fa-compass"></i>Can I refill my prescription online?
+								</div>
+
+								<div class="toggle_content  ac_content arrow " style="display: none;">
+								Yes, you can refill your prescription through our website contact info. You’ll need your prescription number and last name.
+									<br>
+								</div>
+
+								<div class="toggle-title arrow ">
+									<span class="arrow"></span>
+									<i class="fa fa fa-compass"></i>How long will it take to fill my prescription?
+								</div>
+
+								<div class="toggle_content  ac_content arrow " style="display: none;">
+								Most prescriptions are filled within 15-30 minutes. If you call ahead, we can prepare it for you in advance.
+									<br>
+								</div>
+
+								<div class="toggle-title arrow ">
+									<span class="arrow"></span>
+									<i class="fa fa fa-compass"></i>Can you explain the side effects of my medication?
+								</div>
+
+								<div class="toggle_content  ac_content arrow " style="display: none;">
+								Yes, we can provide you with a medication guide that outlines common side effects, and you can also consult with our pharmacists.
+									<br>
+								</div>
+
+								<div class="toggle-title arrow ">
+									<span class="arrow"></span>
+									<i class="fa fa fa-compass"></i>What do I do if I have questions about my prescription?
+								</div>
+
+								<div class="toggle_content  ac_content arrow " style="display: none;">
+								You can ask any of our pharmacists directly during your visit or contact us via phone or email for assistance.
+									<br>
+								</div>
+
+								<div class="toggle-title arrow ">
+									<span class="arrow"></span>
+									<i class="fa fa fa-compass"></i>What should I do if I have an allergic reaction to a medication?
+								</div>
+
+								<div class="toggle_content  ac_content arrow " style="display: none;">
+								If you experience a severe allergic reaction, seek immediate medical attention. For mild reactions, contact us for guidance.
+									<br>
+								</div>
+							</div>
+					</div>
+			</div><!-- .pagemid -->
+		</div><!-- #main -->
+
+		<div id="footer">
+
+		<div class="footer-area-top">
+			<div class="inner">
+				<div class="at-callOutBox">
+					<div class="at-callOut_inner">
+						<div class="at-callOut-action">
+							<div class="at-callOut_text">
+								<div class="at-callout-action-text">
+									<h1 style="font-size:24px;color:#ffffff;font-weight:600;letter-spacing:-1px;">Brilliant Pharmaceutical Co. Ltd</h1>
+								</div>
+							</div>
+							<div class="at-callOut_btn">
+								<div class="at-callout-action-button">
+									<a href="contact-us" class="btn large" style="color: #ffffff;border-color: #ffffff;" data-btn-color="#f0f0f0">
+										<span class="btn-text">Get In Touch</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- .footer-area-top-->
+
+		<div class="footer-area-middle">
+			<div class="inner">
+				<div class="inner-row">
+					<aside id="text-4" class="whitetext widget widget_text  col_3">
+						<div class="textwidget">
+							<p><img src="assets/images/logo-white.png" alt="Labora"></p>
+							<h5>Always focused on client satisfcation</h5>
+						</div>
+					</aside>
+					<aside id="nav_menu-6" class="widget widget_nav_menu  col_3">
+						<h3 class="widget-title">Quick Links</h3>
+						<div class="menu-footer-one-container">
+								<ul class="menu">
+									<li><a href="index">Home</a></li>
+									<li><a href="about-us">About Us</a></li>
+									<li><a href="contact-us">Contact Us</a></li>
+								</ul>
+							</div>
+					</aside>
+					<aside id="nav_menu-5" class="widget widget_nav_menu  col_3">
+						<h3 class="widget-title">Useful Links</h3>
+						<div class="menu-footer-one-container">
+								<ul class="menu">
+									<li><a href="index">Home</a></li>
+									<li><a href="about-us">About Us</a></li>
+									<li><a href="contact-us">Contact Us</a></li>
+								</ul>
+							</div>
+					</aside>
+					<aside id="contactinfo_widgets-2" class="widget contactinfo-wg  col_3">
+						<h3 class="widget-title">LETS TALK</h3>
+						<div class="contactinfo-wrap">
+								<p><span class="icon fa fa-location-arrow fa-lg"></span>
+									<span class="details">
+									Muniki, Suq Libya, St.Kazito Junction<br>
+										Juba South Sudan</span>
+								</p>
+								<p class="phone">
+									<span class="icon fa fa-phone fa-lg"></span>
+									<span class="details">+211 919 415 509</span>
+								</p>
+								<p>
+									<span class="icon fa fa-map-marker fa-lg"></span>
+									<span class="details"><a class="more-link" target="_blank" href="contact-us#imap"
+                        >View Map</a></span>
+								</p>
+							</div>
+					</aside>
+				</div><!-- inner-row -->
+			</div><!-- inner -->
+		</div><!-- .footer-area-middle-->
+
+		<div class="footer-area-bottom">
+			<div class="inner">
+				<aside id="text-7" class="textcenter widget widget_text">
+					<div class="textwidget">
+							&copy; Copyright <script>document.write(/\d{4}/.exec(Date())[0])</script> BPC. All Rights Reserved. Designed by <a href="https://api.whatsapp.com/send/?phone=256782031052">DANTRUST</a>
+						</div>
+				</aside>
+			</div>
+		</div>
+
+	</div><!-- #footer -->
+
+</div><!-- #wrapper-->
+
+<div id="back-top"><a href="#header" title="Scroll Top"><span class="fa fa-angle-up fa-fw fa-2x"></span></a></div>
+
+</body>
+</html>

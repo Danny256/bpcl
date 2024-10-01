@@ -1,0 +1,756 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Brilliant - Medical and Laboratory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script src="assets/js/jquery.js"></script>
+
+    <!-- Google Font -->
+    <link
+      href="../../css-1?family=Lato:300,400,900%7CPoppins:300,400,800&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome and peStroke Icons -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/fontawesome/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
+    />
+
+    <!-- Required CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/shortcodes.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+
+    <!-- PrettyPhoto -->
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/prettyPhoto.css" />
+
+    <!-- Required Scripts -->
+    <script src="assets/js/superfish.js"></script>
+    <script src="assets/js/hoverIntent.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/labora-custom.js"></script>
+
+    <!-- Flex Slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/flexslider.css" />
+    <script src="assets/js/jquery.flexslider-min.js"></script>
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" />
+    <script src="assets/js/owl.carousel.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $("#owl-20").owlCarousel({
+          autoPlay: 3000,
+          pagination: false,
+          items: 5,
+          itemsDesktop: [1199, 4],
+          itemsDesktopSmall: [1024, 4],
+          itemsTablet: [768, 2],
+          itemsMobile: [479, 2],
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="labora_page_loader" style="display: none"></div>
+
+    <div id="wrapper">
+      <div class="topbar">
+        <div class="inner">
+          <div class="topbar-left">
+            <aside id="text-2" class="widget_text">
+              <div class="textwidget">Brilliant Pharmaceutical Co. Ltd</div>
+            </aside>
+          </div>
+          <!-- .topbar-left -->
+          <div class="topbar-right">
+            <aside id="nav_menu-2" class="widget_nav_menu">
+              <div class="menu-topbar-menu-container">
+                <ul id="menu-topbar-menu" class="menu">
+                  <li>
+                    <a href="#"
+                      ><span class="icon fa fa-phone fa-lg"></span> +211 919 415
+                      509</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="icon fa fa-phone fa-lg"></span> +211 927 833
+                      556</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+          <!-- .topbar-right -->
+        </div>
+        <!-- .inner -->
+      </div>
+      <!-- .topbar -->
+      <header class="header-style1">
+        <div class="header">
+          <div class="header-area">
+            <div class="logo">
+              <a href="index" title="Brilliant">
+                <img src="assets/images/logo.png" alt="Brilliant" />
+              </a>
+            </div>
+            <!-- /logo -->
+
+            <div class="primarymenu menuwrap">
+              <ul class="sf-menu">
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home"
+                >
+                  <a href="index">Home</a>
+                </li>
+
+                <li>
+                  <a href="about-us">About Us</a>
+                  <!-- About Us UL -->
+                </li>
+                <li>
+                  <a href="case-grid">Case Grid</a>
+                  <!-- Case Filter -->
+                </li>
+                <li><a href="our-services">Our Services</a></li>
+                <li>
+                  <a href="faq">FAQs</a>
+                  <!-- Services -->
+                </li>
+                <!-- Press Release-->
+                <!-- Short codes -->
+                <li><a href="contact-us">Contact Us</a></li>
+              </ul>
+              <!-- .sf-menu-->
+              <div id="iva-mobile-nav-icon" class="iva-mobile-dropdown">
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <!-- .primarymenu-->
+
+            <!-- Header Widget Area -->
+            <!-- <div class="icn_wrap">
+						<div id="ivaSearch" class="ivaSearch icnalign"><i class="fa fa-search fa-fw"></i></div>
+					</div> -->
+          </div>
+          <!-- .header-area-->
+
+          <!-- Search Field -->
+
+          <div class="iva-mobile-menu">
+            <ul class="iva_mmenu">
+              <li><a href="index">Home</a></li>
+              <!-- Headers Mobile -->
+              <li>
+                <a href="about-us"
+                  >About Us<span class="iva-children-indenter"
+                    ><i class="fa fa fa-angle-down"></i></span
+                ></a>
+                <!-- About Us Mobile -->
+              </li>
+              <li>
+                <a href="case-grid"
+                  >Case Grid<span class="iva-children-indenter"
+                    ><i class="fa fa fa-angle-down"></i></span
+                ></a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="case-with-filters">case-with-filters</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="our-services"
+                  >Our Services<span class="iva-children-indenter"
+                    ><i class="fa fa fa-angle-down"></i></span
+                ></a>
+                <!-- Our Services Mobile -->
+              </li>
+              <li>
+                <a href="faq"
+                  >FAQs<span class="iva-children-indenter"
+                    ><i class="fa fa fa-angle-down"></i></span
+                ></a>
+              </li>
+              <!-- Press Release-->
+              <!-- Short codes -->
+              <li><a href="contact-us">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- .iva-mobile-menu-->
+        </div>
+        <!-- .header-->
+      </header>
+      <!-- #header -->
+
+      <section id="featured_slider" class="clearfix">
+        <div class="slider_wrapper">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img
+                  alt="Evaluation of the Current Safety"
+                  src="assets/images/slide-1.jpg"
+                />
+                <div class="flex-caption fs-left flex-caption-anim">
+                  <div class="flex-caption-inner">
+                    <div class="flex-title">
+                      <h2>Evaluation of the Current Safety</h2>
+                      <div class="flex-content">
+                        Brilliant aims to connect professionals with companies
+                        and organizations in the sector of Pharmaceuticals &
+                        Automation.
+                      </div>
+                    </div>
+                    <!-- .flex-title -->
+                  </div>
+                  <!-- .flex-caption-inner -->
+                </div>
+                <!-- .flex-caption -->
+              </li>
+              <li>
+                <img
+                  alt="Laboratory Priority Services Delivered"
+                  src="assets/images/slide-2.jpg"
+                />
+                <div class="flex-caption fs-right">
+                  <div class="flex-caption-inner">
+                    <div class="flex-title">
+                      <h2>Pharmaceutical Priority Services Delivered</h2>
+                      <div class="flex-content">
+                        <p>
+                          we deal with people’s lives. Every decision we make
+                          should reflect that responsibility.
+                        </p>
+                        <!-- <a href="#" data-btn-bg="#990b6e" data-btn-hoverbg="#8c0038" data-btn-color="#ffffff" data-btn-hovercolor="#f5f5f5" style="background-color:#990b6e; color:#ffffff;" class="btn right large rounded"><span class="btn-details"><span class="btn-text">View Services<span class="btn-sub-text"></span></span></span></a> -->
+                      </div>
+                    </div>
+                    <!-- .flex-title -->
+                  </div>
+                  <!-- .flex-caption-inner -->
+                </div>
+                <!-- .flex-caption -->
+              </li>
+            </ul>
+            <ul class="flex-direction-nav">
+              <li><a class="flex-prev" href="#"> </a></li>
+              <li><a class="flex-next" href="#"> </a></li>
+            </ul>
+          </div>
+          <!-- .flexslider -->
+        </div>
+        <!-- .flexslider_wrap -->
+      </section>
+      <!-- #featured_slider -->
+
+      <div id="main" class="content-area">
+        <div class="section_row clearfix">
+          <div class="section_inner">
+            <div class="at-fancy-heading-v1 textcenter">
+              <h2>
+                Brilliant Pharmaceutical is a South Sudanese based medical
+                supplies company with over
+                <strong style="color: #990b6e">7 years of experience</strong>
+                focusing on value medicine and quality medical equipments.
+              </h2>
+              <span class="at-fancy-heading-v1-sep"></span>
+            </div>
+            <!-- .fancy-heading-->
+
+            <div class="demo_space" style="height: 80px"></div>
+
+            <div class="one_half">
+              <img src="assets/images/photo1.jpg" alt="" />
+            </div>
+            <!-- .one_half-->
+
+            <div class="one_half end">
+              <h1>WELCOME TO BRILLIANT PHARMCEUTICAL Co. Ltd</h1>
+              <p><strong>We are commited to offer</strong></p>
+              <p>
+                High quality and affordable medicines, medical equipment and
+                other healthcare products to ensure that all South Sudanese and
+                the people of this region gain access to quality healthcare at
+                an affordable cost.
+              </p>
+              <!-- <p><strong><a href="#">MORE ABOUT US <i class="fa fa-long-arrow-right"></i></a></strong></p> -->
+            </div>
+          </div>
+          <!-- .section_inner -->
+        </div>
+        <!-- section_row -->
+
+        <div class="section_row clearfix" style="padding-top: 0">
+          <div class="section_inner">
+            <div class="one_fourth">
+              <div class="serviceIcn_style1">
+                <div class="services-icon">
+                  <i class="services_icon1 fa fa-fw fa-2x fa-hospital-o"></i>
+                </div>
+                <div class="services-content">
+                  <h3>Research Center</h3>
+                  Well equiped
+                </div>
+              </div>
+            </div>
+            <!-- .one_fourth-->
+            <div class="one_fourth">
+              <div class="serviceIcn_style1">
+                <div class="services-icon">
+                  <i class="services_icon1 fa fa-fw fa-2x fa-stethoscope"></i>
+                </div>
+                <div class="services-content">
+                  <h3>Lab Technicians</h3>
+                  Powerful &amp; Skilled
+                </div>
+              </div>
+            </div>
+            <!-- .one_fourth-->
+            <div class="one_fourth">
+              <div class="serviceIcn_style1">
+                <div class="services-icon">
+                  <i class="services_icon1 fa fa-fw fa-2x fa-money"></i>
+                </div>
+                <div class="services-content">
+                  <h3>Affordability</h3>
+                  affordable & efficient
+                </div>
+              </div>
+            </div>
+            <!-- .one_fourth-->
+            <div class="one_fourth last">
+              <div class="serviceIcn_style1">
+                <div class="services-icon">
+                  <i class="services_icon1 fa fa-fw fa-2x fa-envelope-o"></i>
+                </div>
+                <div class="services-content">
+                  <h3>Quick response</h3>
+                  Instant Email Alerts
+                </div>
+              </div>
+            </div>
+            <!-- .one_fourth last-->
+          </div>
+          <!-- .section_inner-->
+        </div>
+        <!-- .section_row-->
+
+        <div
+          class="partial_section_wrap clearfix"
+          style="background-color: #e4ebef; padding: 0"
+        >
+          <div class="partial_section_image">
+            <div><img src="assets/images/photo2.jpg" alt="" /></div>
+          </div>
+
+          <div class="partial_section_content">
+            <div class="ps_content clearfix">
+              <div
+                class="at-fancy-heading-v1 textleft"
+                style="margin-top: 80px"
+              >
+                <h2 style="font-weight: 800">
+                  We Are Trusted By the Leading Companies in the Region
+                </h2>
+                <span class="at-fancy-heading-v1-sep"></span>
+              </div>
+              <div class="one_half">
+                <h4>Professional Staff</h4>
+                <p>
+                  Our staff are incredibly knowledgeable and always take the
+                  time to explain things thoroughly. They make sure you
+                  understand your medications and their potential side
+                  effects.<br />
+                </p>
+              </div>
+              <div class="one_half last">
+                <p></p>
+                <h4>Customer-Centric</h4>
+                <p>
+                  We really go out of our way to ensure customer satisfaction.
+                  Whether it's offering medication counseling or handling
+                  orders, we’re always supportive.<br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .row-->
+
+        <div id="primary" class="pagemid">
+          <div class="inner">
+            <main class="content-area">
+              <div class="at-fancy-heading-v1">
+                <br />
+                <h3><strong>Services</strong></h3>
+              </div>
+              <!-- Trial Block -->
+              <div class="one_fourth">
+                <div class="at-image">
+                  <a href="service"
+                    ><img
+                      class=""
+                      src="assets/images/medic1.jpg"
+                      width="350"
+                      height="220"
+                      alt="medic"
+                      title="medic"
+                  /></a>
+                </div>
+                <div class="at-content">
+                  <h4><a href="service">Reagents & Cold Chain</a></h4>
+                  <p></p>
+                  <a class="more-link" href="#"><span>Read more</span></a>
+                </div>
+              </div>
+              <div class="one_fourth">
+                <div class="at-image">
+                  <a href="service"
+                    ><img
+                      class=""
+                      src="assets/images/medic.jpg"
+                      width="350"
+                      height="220"
+                      alt="medic-"
+                      title="medic"
+                  /></a>
+                </div>
+                <div class="at-content">
+                  <h4><a href="service">Medical Equipments</a></h4>
+                  <p></p>
+                  <a class="more-link" href="#"><span>Read more</span></a>
+                </div>
+              </div>
+              <div class="one_fourth">
+                <div class="at-image">
+                  <a href="service"
+                    ><img
+                      class=""
+                      src="assets/images/human-drugs.jpg"
+                      width="350"
+                      height="220"
+                      alt="measurement"
+                      title="measurement"
+                  /></a>
+                </div>
+                <div class="at-content">
+                  <h4><a href="service">Human Drugs</a></h4>
+                  <p></p>
+                  <a class="more-link" href="#"><span>Read more</span></a>
+                </div>
+              </div>
+              <div class="one_fourth last">
+                <div class="at-image">
+                  <a href="service"
+                    ><img
+                      class=""
+                      src="assets/images/veterinary-drugs.jpg"
+                      width="350"
+                      height="220"
+                      alt="medical-emergency"
+                      title="medical-emergency"
+                  /></a>
+                </div>
+                <div class="at-content">
+                  <h4><a href="service">Veterinary Drugs</a></h4>
+                  <p></p>
+                  <a class="more-link" href="#"><span>Read more</span></a>
+                </div>
+              </div>
+              <div class="one_fourth">
+                <div class="at-image">
+                  <a href="service"
+                    ><img
+                      class=""
+                      src="assets/images/emergency.jpg"
+                      width="350"
+                      height="220"
+                      alt="medic"
+                      title="medic"
+                  /></a>
+                </div>
+                <div class="at-content">
+                  <h4><a href="service">Emergency Items</a></h4>
+                  <p></p>
+                  <a class="more-link" href="#"><span>Read more</span></a>
+                </div>
+              </div>
+              <div class="one_fourth">
+                <div class="at-image">
+                  <a href="service"
+                    ><img
+                      class=""
+                      src="assets/images/rehabilitation.jpg"
+                      width="350"
+                      height="220"
+                      alt="medic-"
+                      title="medic"
+                  /></a>
+                </div>
+                <div class="at-content">
+                  <h4><a href="service">Rehabilitation Products</a></h4>
+                  <p></p>
+                  <a class="more-link" href="#"><span>Read more</span></a>
+                </div>
+              </div>
+              <div class="one_fourth">
+                <div class="at-image">
+                  <a href="service"
+                    ><img
+                      class=""
+                      src="assets/images/detergents.jpg"
+                      width="350"
+                      height="220"
+                      alt="measurement"
+                      title="measurement"
+                  /></a>
+                </div>
+                <div class="at-content">
+                  <h4><a href="service">Wash Products</a></h4>
+                  <p></p>
+                  <a class="more-link" href="#"><span>Read more</span></a>
+                </div>
+              </div>
+              <div class="one_fourth last">
+                <div class="at-image">
+                  <a href="service"
+                    ><img
+                      class=""
+                      src="assets/images/pest-control.jpg"
+                      width="350"
+                      height="220"
+                      alt="medical-emergency"
+                      title="medical-emergency"
+                  /></a>
+                </div>
+                <div class="at-content">
+                  <h4><a href="service">Pest & Control Services</a></h4>
+                  <p></p>
+                  <a class="more-link" href="#"><span>Read more</span></a>
+                </div>
+              </div>
+            </main>
+            <!-- .content-area -->
+            <br />
+            <!-- .sidebar-->
+          </div>
+          <!-- .inner -->
+        </div>
+        <!-- .pagemid -->
+
+        <div
+          class="section_row clearfix"
+          style="background-color: #e4ebef; padding: 40px 0"
+        >
+          <div class="section_inner">
+            <div class="owl-wrapper">
+              <!-- .owlCarousel-->
+            </div>
+            <!-- .owl-wrapper-->
+          </div>
+          <!-- .section_inner-->
+        </div>
+        <!-- .section_row-->
+
+        <div class="section_row clearfix">
+          <div class="section_inner">
+            <div class="one_fourth">
+              <h5><strong>Equipments</strong></h5>
+              <ul class="iva-checklist iva-liststyle1">
+                <li class="iva-li-item-content">Surgical Equipments</li>
+                <li class="iva-li-item-content">Laboratory Equipments</li>
+                <li class="iva-li-item-content">Medical Equipments</li>
+                <li class="iva-li-item-content">
+                  Personal Protective Equipments
+                </li>
+                <!-- <li class="iva-li-item-content"></li>							 -->
+              </ul>
+            </div>
+            <!-- .one_fourth-->
+
+            <div class="one_fourth">
+              <h5><strong>Drugs</strong></h5>
+              <ul class="iva-checklist iva-liststyle1">
+                <li class="iva-li-item-content">Human Drugs</li>
+                <li class="iva-li-item-content">Vetirinary Drugs</li>
+                <li class="iva-li-item-content">Diagnostics</li>
+              </ul>
+            </div>
+            <!-- .one_fourth-->
+
+            <div class="one_fourth">
+              <h5><strong>Medical Supplies</strong></h5>
+              <ul class="iva-checklist iva-liststyle1">
+                <li class="iva-li-item-content">Reagents & Cold Chain</li>
+                <li class="iva-li-item-content">Weighing & Height Scale</li>
+                <li class="iva-li-item-content">Hospital Furniture</li>
+                <li class="iva-li-item-content">Rehabilitation Products</li>
+                <li class="iva-li-item-content">Hospital Apparels & Linen</li>
+              </ul>
+            </div>
+            <!-- .one_fourth-->
+
+            <div class="one_fourth last">
+              <h5><strong>More Services</strong></h5>
+              <ul class="iva-checklist iva-liststyle1">
+                <li class="iva-li-item-content">Emergency Items</li>
+                <li class="iva-li-item-content">First Aid Kit</li>
+                <li class="iva-li-item-content">Wash Products</li>
+                <li class="iva-li-item-content">Medical Consumables</li>
+                <li class="iva-li-item-content">Fumigation Services</li>
+              </ul>
+            </div>
+            <!-- .one_fourth last-->
+          </div>
+          <!-- .section_inner-->
+        </div>
+        <!-- .section_row-->
+      </div>
+      <!-- #main.content-area-->
+
+      <div id="footer">
+        <div class="footer-area-top">
+          <div class="inner">
+            <div class="at-callOutBox">
+              <div class="at-callOut_inner">
+                <div class="at-callOut-action">
+                  <div class="at-callOut_text">
+                    <div class="at-callout-action-text">
+                      <h1
+                        style="
+                          font-size: 24px;
+                          color: #ffffff;
+                          font-weight: 600;
+                          letter-spacing: -1px;
+                        "
+                      >
+                        Brilliant Pharmaceutical Co. Ltd
+                      </h1>
+                    </div>
+                  </div>
+                  <div class="at-callOut_btn">
+                    <div class="at-callout-action-button">
+                      <a
+                        href="contact-us"
+                        class="btn large"
+                        style="color: #ffffff; border-color: #ffffff"
+                        data-btn-color="#f0f0f0"
+                      >
+                        <span class="btn-text">Get in Touch</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .footer-area-top-->
+
+        <div class="footer-area-middle">
+          <div class="inner">
+            <div class="inner-row">
+              <aside id="text-4" class="whitetext widget widget_text col_3">
+                <div class="textwidget">
+                  <p>
+                    <img src="assets/images/logo-white.png" alt="Brilliant" />
+                  </p>
+                  <h5>Always focused on client satisfcation</h5>
+                </div>
+              </aside>
+              <aside id="nav_menu-6" class="widget widget_nav_menu col_3">
+                <h3 class="widget-title">Quick Links</h3>
+                <div class="menu-footer-one-container">
+                  <ul class="menu">
+                    <li><a href="index">Home</a></li>
+                    <li><a href="contact-us">Contact Us</a></li>
+                    <li><a href="about-us">About Us</a></li>
+                  </ul>
+                </div>
+              </aside>
+              <aside id="nav_menu-5" class="widget widget_nav_menu col_3">
+                <h3 class="widget-title">Useful Links</h3>
+                <div class="menu-footer-one-container">
+                  <ul class="menu">
+                    <li><a href="index">Home</a></li>
+                    <li><a href="about-us">About Us</a></li>
+                    <li><a href="contact-us">Contact Us</a></li>
+                  </ul>
+                </div>
+              </aside>
+              <aside
+                id="contactinfo_widgets-2"
+                class="widget contactinfo-wg col_3"
+              >
+                <h3 class="widget-title">LETS TALK</h3>
+                <div class="contactinfo-wrap">
+                  <p>
+                    <span class="icon fa fa-location-arrow fa-lg"></span>
+                    <span class="details">
+                      Muniki, Suq Libya, St.Kazito Junction<br />
+                      Juba South Sudan</span
+                    >
+                  </p>
+                  <p class="phone">
+                    <span class="icon fa fa-phone fa-lg"></span>
+                    <span class="details">+211 919 415 509</span>
+                  </p>
+                  <p>
+                    <span class="icon fa fa-map-marker fa-lg"></span>
+                    <span class="details"
+                      ><a
+                        class="more-link"
+                        target="_blank"
+                        href="contact-us#imap"
+                        >View Map</a
+                      ></span
+                    >
+                  </p>
+                </div>
+              </aside>
+            </div>
+            <!-- inner-row -->
+          </div>
+          <!-- inner -->
+        </div>
+        <!-- .footer-area-middle-->
+
+        <div class="footer-area-bottom">
+          <div class="inner">
+            <aside id="text-7" class="textcenter widget widget_text">
+              <div class="textwidget">
+                &copy; Copyright
+                <script>
+                  document.write(/\d{4}/.exec(Date())[0]);
+                </script>
+                BPC. All Rights Reserved. Designed by
+                <a href="https://api.whatsapp.com/send/?phone=256782031052"
+                  >DANTRUST</a
+                >
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+      <!-- #footer -->
+    </div>
+    <!-- #wrapper-->
+
+    <div id="back-top">
+      <a href="#header" title="Scroll Top"
+        ><span class="fa fa-angle-up fa-fw fa-2x"></span
+      ></a>
+    </div>
+  </body>
+</html>
